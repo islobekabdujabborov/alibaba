@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	button,
+	a {
+		@apply transition-colors duration-150;
+	}
+
+	button:hover,
+	a:hover {
+		@apply bg-gray-200;
+	}
+}
